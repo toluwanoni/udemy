@@ -27,13 +27,13 @@ my_numbers.sort()
 print(list(zip(my_strings,my_numbers)))
 
 #3
-scores = [73, 20, 65, 19, 76, 100, 88]
-def score_filter(item):
-    return item > 50
-print(list(filter(score_filter, scores)))
-#4
-total_numbers = my_numbers + scores
-def accum(acc,item):
-    print(acc,item)
-    return(acc + item)
-print(reduce(accum,total_numbers,0))
+# scores = [73, 20, 65, 19, 76, 100, 88]
+# def score_filter(item):
+#     return item > 50
+# print(list(filter(score_filter, scores)))
+# #4
+# total_numbers = my_numbers + scores
+# def accum(acc,item):
+#     print(acc,item)
+#     return(acc + item)
+# print(reduce(accum,total_numbers,0))
